@@ -27,7 +27,9 @@
     <script>
       FHIR.oauth2.authorize({
         'client_id': '13f5f9e9-1077-4a6a-9fde-c4a932d78784',
-        'scope':  'patient/Patient.read patient/Observation.read launch/patient online_access openid profile'
+        'scope':  'patient/Patient.read patient/Observation.read launch/patient online_access openid profile',
+	'iss': 'https://michaelsosa.github.io/smart-on-fhir-tutorial/example-smart-app',
+	'patientId': '12724067'
       });
     </script>
     <div class="spinner">
